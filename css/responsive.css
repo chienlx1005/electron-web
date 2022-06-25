@@ -11,4 +11,14 @@
     flex: 0 0 auto;
     width: 64%;
   }
+  .col-xs-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .col-xxl-13 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
 }
