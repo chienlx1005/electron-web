@@ -22,3 +22,34 @@
     width: 20%;
   }
 }
+
+/* ipad mini */
+@media screen and (max-width: 1024px) {
+  .control .login {
+    display: none;
+  }
+  .item-des h3 {
+    font-size: 40px;
+  }
+  .item-title .item-des {
+    text-align: center;
+  }
+  .slider .flickity-prev-next-button.previous {
+    bottom: 5%;
+  }
+  .show-content .show-item-des {
+    padding: 0;
+  }
+  .deal-content .container {
+    width: 90%;
+  }
+  .deal-slide {
+    margin-left: 0;
+  }
+  .item-content {
+    margin-left: 0;
+  }
+  .deal-slide .flickity-prev-next-button.next {
+    right: -2.5%;
+  }
+}
