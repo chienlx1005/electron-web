@@ -707,7 +707,6 @@ a {
 .features-content .feature-container.container {
   width: 100%;
   max-width: 1640px;
-  padding-left: 0;
 }
 .features-content .feature-container {
   padding-top: 40px;
@@ -1356,12 +1355,16 @@ h6 {
 }
 .payment ul li {
   list-style: none;
+}
+.payment ul li a {
+  list-style: none;
   font-size: 12px;
   font-weight: var(--rengular);
   font-family: var(--font-base);
   color: #000;
   text-transform: capitalize;
   padding: 0 15px;
+  text-decoration: none;
 }
 .payment ul li:nth-child(2) {
   border-left: 1px solid #000;
