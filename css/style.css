@@ -624,7 +624,9 @@ a {
   width: 25px;
   height: 25px;
 }
-
+.deal-slide .flickity-button {
+  background-color: transparent;
+}
 .deal-slide .flickity-button svg {
   visibility: hidden;
 }
