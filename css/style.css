@@ -33,6 +33,10 @@ a {
   color: var(--white);
 }
 
+/* slider custom */
+.flickity-button:focus {
+  outline: none;
+}
 /* header */
 .header .container {
   width: 100%;
