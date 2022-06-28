@@ -138,6 +138,9 @@
     width: 100%;
     max-width: 720px;
   }
+  .shipping .ship-inner {
+    padding: 20px 0;
+  }
 }
 @media screen and (max-width: 420px) {
   .slide-item .item-inner {
