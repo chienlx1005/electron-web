@@ -20,6 +20,12 @@
     width: 80%;
   }
 }
+@media screen and (min-width: 1400px) {
+  .col-xxl-13 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
 @media screen and (max-width: 1365px) {
   .control .login {
     display: none;
@@ -97,6 +103,21 @@
   }
   .sell-head-content .sell-category ul li {
     padding: 10px 25px;
+  }
+  .control {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .control svg {
+    width: 30px;
+    height: 30px;
+  }
+  .head-mid .label {
+    display: none;
+  }
+  .header .container-fluid {
+    padding-bottom: 10px;
   }
 }
 @media screen and (max-width: 767px) {
