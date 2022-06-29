@@ -317,7 +317,7 @@
   }
   .clock .clock-single::before {
     padding: 20px;
-    top: -10%;
+    top: -15%;
     left: -10%;
   }
 }
