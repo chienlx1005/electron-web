@@ -340,4 +340,7 @@
     max-width: 300px;
     margin: 10px auto;
   }
+  .header .head-contact {
+    padding-top: 5px;
+  }
 }
