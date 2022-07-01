@@ -122,6 +122,9 @@
   .payment ul {
     justify-content: flex-end;
   }
+  .footer .location-placeholder {
+    justify-content: space-around;
+  }
 }
 @media screen and (max-width: 767px) {
   .header .head-top {
@@ -129,6 +132,23 @@
   }
   .header .head-contact {
     justify-content: center;
+    padding-top: 5px;
+  }
+  .deal-slide .flickity-prev-next-button.next {
+    right: 0;
+  }
+  .deal-content .deal-item {
+    padding: 0 25px;
+  }
+  .features-content .feature-container {
+    padding: 40px;
+    max-height: 550px;
+  }
+  .sell-head-content .sell-category ul {
+    justify-content: space-between;
+  }
+  .deal-slide .flickity-prev-next-button.previous {
+    left: 0;
   }
   .header .head-info {
     justify-content: center;
@@ -143,6 +163,30 @@
   }
   .shipping .ship-inner {
     padding: 20px 0;
+  }
+  .slider .flickity-prev-next-button.previous {
+    bottom: 0;
+  }
+  .sell-head-content .sell-category ul li {
+    margin: 5px 0;
+  }
+  .copy-right {
+    text-align: center;
+  }
+  .payment ul {
+    justify-content: center;
+    padding: 5px 0 10px;
+  }
+  .payment .payy {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .des {
+    padding: 20px 0;
+  }
+  .footer .address {
+    padding: 0 5px;
   }
 }
 @media screen and (max-width: 420px) {
@@ -342,5 +386,17 @@
   }
   .header .head-contact {
     padding-top: 5px;
+  }
+  .item-des .count-down {
+    flex-direction: column;
+  }
+  .count-down .label {
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+  .item-des .clock {
+    width: 100%;
   }
 }
