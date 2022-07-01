@@ -119,6 +119,9 @@
   .header .container-fluid {
     padding-bottom: 10px;
   }
+  .payment ul {
+    justify-content: flex-end;
+  }
 }
 @media screen and (max-width: 767px) {
   .header .head-top {
@@ -309,15 +312,32 @@
   .footer .social {
     width: 100%;
   }
-  .social ul {
+  .footer .social ul {
     display: flex;
     width: 100%;
     justify-content: space-around;
     align-items: center;
   }
+  .footer .location-placeholder {
+    justify-content: space-around;
+  }
   .clock .clock-single::before {
     padding: 20px;
     top: -15%;
     left: -10%;
+  }
+  .payment ul {
+    justify-content: center;
+  }
+  .feature-item .item-inner {
+    padding: 20px;
+  }
+  .features-content .item-inner .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    margin: 10px auto;
   }
 }
