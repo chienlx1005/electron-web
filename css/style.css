@@ -742,7 +742,6 @@ a {
   left: 0;
   visibility: hidden;
   opacity: 0;
-  transform: translateY(20%);
   transition: 0.5s;
   z-index: 1;
 }
@@ -750,7 +749,6 @@ a {
   position: relative;
   visibility: visible;
   opacity: 1;
-  transform: translateY(0);
   z-index: 2;
 }
 .feature-item .item-inner {
@@ -768,6 +766,8 @@ a {
 .features-content .feature-container {
   padding-top: 40px;
   padding-bottom: 95px;
+  max-height: 650px;
+  overflow: hidden;
 }
 .features-content .feature-control {
   display: flex;
