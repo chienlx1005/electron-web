@@ -718,11 +718,11 @@ a {
   height: 30%;
 }
 .features-content .flickity-prev-next-button.previous {
-  right: -5.5%;
+  right: -4.5%;
   left: unset;
 }
 .features-content .flickity-prev-next-button.next {
-  right: -9%;
+  right: -8%;
 }
 .features-content .flickity-prev-next-button {
   top: -14%;
@@ -742,14 +742,16 @@ a {
   left: 0;
   visibility: hidden;
   opacity: 0;
-  transition: 0.5s;
+  transition: 1s;
   z-index: 1;
+  transform: translateY(20%);
 }
 .features-content .feature-contain .active {
   position: relative;
   visibility: visible;
   opacity: 1;
   z-index: 2;
+  transform: translateY(0);
 }
 .feature-item .item-inner {
   width: 100%;
@@ -792,6 +794,7 @@ a {
 .features-content .feature-contain.container {
   width: 100%;
   max-width: 1400px;
+  position: relative;
 }
 .features-content .feature-item {
   border-radius: 5px;

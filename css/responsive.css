@@ -78,6 +78,19 @@
   .sell-head h4 {
     font-size: 24px;
   }
+  .footer .location-placeholder {
+    justify-content: flex-start;
+  }
+  .footer .address {
+    margin: 0 10px;
+  }
+  .payment ul {
+    justify-content: center;
+    align-items: center;
+  }
+  .item-title .item-des {
+    text-align: center;
+  }
 }
 @media screen and (max-width: 1023px) {
   .header .head-contact {
@@ -187,6 +200,14 @@
   }
   .footer .address {
     padding: 0 5px;
+    font-size: 12px;
+  }
+  .flickity-prev-next-button {
+    width: 35px;
+    height: 35px;
+  }
+  .features-content .flickity-prev-next-button {
+    top: -21%;
   }
 }
 @media screen and (max-width: 420px) {
@@ -206,10 +227,7 @@
   .item-title a {
     font-size: 8px;
   }
-  .slider .flickity-prev-next-button {
-    width: 25px;
-    height: 25px;
-  }
+
   .slider .flickity-prev-next-button.previous {
     bottom: -1%;
   }
@@ -242,6 +260,7 @@
   }
   .deal-slide .flickity-prev-next-button.next {
     right: 0;
+    top: 50%;
   }
   .deal-slide .flickity-prev-next-button.previous {
     left: 0;
@@ -265,13 +284,12 @@
   .features-content .flickity-prev-next-button {
     width: 30px;
     height: 30px;
+    top: 0;
   }
   .features-content .flickity-prev-next-button.previous {
-    top: -4%;
     right: 10%;
   }
   .features-content .flickity-prev-next-button.next {
-    top: -4%;
     right: 1%;
   }
   .sell-head-content .sell-head {
@@ -282,7 +300,7 @@
     text-align: center;
   }
   .sell-head-content .sell-category ul li {
-    font-size: 10px;
+    font-size: 9px;
     padding: 5px;
     margin: 0;
   }
@@ -398,5 +416,45 @@
   }
   .item-des .clock {
     width: 100%;
+  }
+  .slider .flickity-prev-next-button {
+    width: 25px;
+    height: 25px;
+  }
+  .control svg {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 329px) {
+  .header .head-contact {
+    font-size: 9px;
+  }
+  .slider .flickity-prev-next-button {
+    width: 20px;
+    height: 20px;
+  }
+  .item-title a {
+    font-size: 7px;
+    padding: 5px 10px;
+  }
+  .deal-item .item-content .subtitle {
+    font-size: 12px;
+  }
+  .deal-item .item-img {
+    max-height: 150px;
+  }
+  .item-price h4 {
+    font-size: 13px;
+  }
+  .item-price h5 {
+    font-size: 10px;
+  }
+  .count-down h4 {
+    font-size: 11px;
+  }
+  .deal-slide .flickity-prev-next-button.next {
+    top: 50%;
   }
 }
