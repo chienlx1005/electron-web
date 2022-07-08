@@ -316,6 +316,7 @@
   }
   .sell-foot-content .sell-foot-item .img {
     max-width: 150px;
+    max-height: 150px;
   }
   .sell-foot-item .des h4,
   h6 {
