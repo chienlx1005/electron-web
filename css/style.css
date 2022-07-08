@@ -1182,8 +1182,8 @@ h6 {
 .inspiration .flickity-prev-next-button .flickity-button-icon {
   width: 25%;
   height: 25%;
-  left: 35%;
-  top: 40%;
+  left: 37%;
+  top: 37%;
 }
 .in-item .in-des p {
   font-size: 12px;
@@ -1208,12 +1208,12 @@ h6 {
   color: #868686;
 }
 .inspiration .in-des {
-  padding-bottom: 30px;
+  padding-bottom: 28px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 .inspiration .in-comment {
   display: flex;
-  margin: 15px 0;
+  margin: 12px 0;
 }
 .in-comment span {
   font-size: 12px;
@@ -1226,7 +1226,6 @@ h6 {
   height: 12px;
 }
 .inspiration .read-more {
-  margin: 15px 0;
 }
 .inspiration .read-more span {
   font-family: var(--font-base);
