@@ -839,6 +839,15 @@ a {
   color: #000;
   margin-bottom: 10px;
 }
+.item-info .item-star span {
+  font-size: 11px;
+  color: #cdcdcd;
+  padding-left: 5px;
+  margin-top: 3px;
+  font-weight: var(--rengular);
+  font-family: var(--font-base);
+  margin-bottom: 0;
+}
 .item-info h6 {
   font-size: 14px;
   font-weight: var(--rengular);
@@ -901,8 +910,23 @@ a {
   justify-content: center;
   align-items: center;
 }
-.sell-content .sell-item-des span,
-h6 {
+.sell-content .sell-item-des h6 {
+  font-size: 14px;
+  font-weight: var(--rengular);
+  font-family: var(--font-base);
+  color: #000;
+  margin-top: 3px;
+}
+.sell-item-des .item-star span {
+  font-size: 11px;
+  color: #cdcdcd;
+  padding-left: 5px;
+  margin-top: 3px;
+  font-weight: var(--rengular);
+  font-family: var(--font-base);
+}
+
+.sell-item-des span {
   font-size: 14px;
   font-weight: var(--rengular);
   font-family: var(--font-base);
@@ -988,6 +1012,14 @@ h6 {
   font-family: var(--font-base);
   font-weight: var(--rengular);
   color: #000;
+}
+.sell-foot-item .item-star span {
+  font-size: 11px;
+  color: #cdcdcd;
+  padding-left: 5px;
+  margin-top: 3px;
+  font-weight: var(--rengular);
+  font-family: var(--font-base);
 }
 .sell-foot-content .des h6 {
   color: #868686;
@@ -1225,8 +1257,7 @@ h6 {
   width: 12px;
   height: 12px;
 }
-.inspiration .read-more {
-}
+
 .inspiration .read-more span {
   font-family: var(--font-base);
   font-weight: var(--rengular);
