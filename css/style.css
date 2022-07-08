@@ -65,6 +65,7 @@ a {
 .header .head-top {
   justify-content: space-between;
   height: 39px;
+  padding: 0 10px;
 }
 .head-top .head-phone {
   padding-right: 20px;
