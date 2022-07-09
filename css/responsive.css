@@ -215,6 +215,11 @@
     left: 3%;
     top: 13%;
   }
+  .shop-collect button {
+    min-width: 80px;
+    min-height: 30px;
+    font-size: 11px;
+  }
   .item-des .subtitle {
     font-size: 13px;
   }
@@ -269,7 +274,8 @@
     padding: 0 30px;
   }
   .features-content .feature-container {
-    padding: 20px 0;
+    padding-top: 20px;
+    padding-bottom: 30px;
   }
   .features-content .label {
     font-size: 20px;
@@ -402,6 +408,10 @@
     align-items: center;
     max-width: 300px;
     margin: 10px auto;
+  }
+  .features-content .shop-collect {
+    margin: 10px auto;
+    max-width: 300px;
   }
   .header .head-contact {
     padding-top: 5px;
