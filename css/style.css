@@ -1084,6 +1084,10 @@ img {
 }
 .sell-foot-content .sell-foot-item {
   margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
 }
 
 .sell-foot-content .sell-foot-item .img {
