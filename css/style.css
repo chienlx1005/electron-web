@@ -1301,6 +1301,9 @@ img {
 .inspiration .in-item {
   padding: 0 10px;
 }
+.inspiration .in-inner {
+  padding-bottom: 10px;
+}
 .inspiration .flickity-prev-next-button {
   top: 28%;
   background-color: transparent;
@@ -1380,7 +1383,7 @@ img {
   right: 0;
   left: 0;
   background-color: #000;
-  height: 2px;
+
   height: 1px;
 }
 .inspiration .flickity-page-dots {
