@@ -1079,8 +1079,8 @@ img {
 }
 /* sell-foot-content */
 .sell-foot-content {
-  padding-top: 60px;
-  padding-bottom: 120px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
 .sell-foot-content .sell-foot-item {
   margin: 10px 0;
@@ -1209,7 +1209,16 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-right: 0.5px solid rgba(0, 0, 0, 0.05);
+  /* border-right: 0.5px solid rgba(0, 0, 0, 0.05); */
+}
+.trending-product .trend-inner::before {
+  content: "";
+  position: absolute;
+  top: 10%;
+  right: 0;
+  bottom: 10%;
+  width: 0.5px;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 .trending-product .trend-item.is-selected:nth-child(5) .trend-inner {
   border: unset;
